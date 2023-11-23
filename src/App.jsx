@@ -1,6 +1,7 @@
 import MainRouter from "./routes/MainRouter";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
+import NavBarComponent from "./components/NavBarComponent/NavBarComponent";
 function App() {
   return (
     <div>
@@ -9,5 +10,5 @@ function App() {
     </div>
   );
 }
-
+NavBarComponent;
 export default App;
