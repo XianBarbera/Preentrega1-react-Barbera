@@ -9,7 +9,7 @@ export const Home = () => {
     axios
       .get("https://dummyjson.com/products/?limit=10")
       .then((res) => {
-        setProducts(res.data.setProducts);
+        setProducts(res.data.Products);
       })
       .catch((error) => console.log(error));
   }, []);
