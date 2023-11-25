@@ -4,7 +4,7 @@ import NavBarComponent from "../components/NavBarComponent/NavBarComponent";
 import Category from "../pages/Category";
 import Item from "../pages/Item";
 
-export const MainRoutes = () => {
+const MainRoutes = () => {
   return (
     <Router>
       <NavBarComponent />

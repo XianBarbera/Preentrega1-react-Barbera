@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-export const ItemListContainer = ({ products }) => {
+const ItemListContainer = ({ products }) => {
   return (
     <div
       style={{
@@ -14,7 +14,10 @@ export const ItemListContainer = ({ products }) => {
     >
       {products.map((product) => {
         return (
-          <Card key={product.id} style={{ width: "18rem", margin: 20 }}>
+          <Card
+            key={product.id}
+            style={{ width: "18rem", margin: 20, height: "500px" }}
+          >
             <Link to={`/item/${product.id}`}>
               <Card.Img variant="top" src={product.thumbnail} />
             </Link>
