@@ -5,7 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import CartWidgetComponent from "../CardWidgetComponent/CardWidgetComponent";
+import CartWidgetComponent from "../CartWidgetComponent/CartWidgetComponent";
 
 const NavBarComponent = () => {
   const [categories, setCategories] = useState([]);
